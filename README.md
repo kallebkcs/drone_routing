@@ -20,6 +20,7 @@ Unlike traditional approaches that attempt to solve pathfinding directly on the 
 The QAOA Ansatz utilizes the XY-mixer, which structurally enforces the "one-hot" constraint (one route per vehicle). By restricting the quantum evolution to the feasible subspace, we achieve a massive reduction in search space complexity:
 - Standard QAOA ($X$-mixer): Explores $2^n = 2^6 = 64$ states.
 - QAOA Ansatz ($XY$-mixer): Explores only $|\mathcal{R}|^{|V|} = 3^2 = 9$ states.
+
 Efficiency: This represents an ~86% reduction in search space for the 2-drone/3-route instance, significantly improving the algorithm's accuracy.
 
 ## Results Summary
