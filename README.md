@@ -21,7 +21,7 @@ The QAOA Ansatz utilizes the XY-mixer, which structurally enforces the "one-hot"
 - Standard QAOA ($X$-mixer): Explores $2^n = 2^6 = 64$ states.
 - QAOA Ansatz ($XY$-mixer): Explores only $|\mathcal{R}|^{|V|} = 3^2 = 9$ states.
 
-Efficiency: This represents an ~86% reduction in search space for the 2-drone/3-route instance, significantly improving the algorithm's accuracy.
+This represents an ~86% reduction in search space for the 2-drone/3-route instance, significantly improving the algorithm's accuracy.
 
 ## Results Summary
 Our findings indicate that while the standard QAOA struggles with constraint satisfaction in noisy environments, the QAOA Ansatz maintains a higher success probability by preventing the system from collapsing into invalid (non-one-hot) states.
