@@ -28,7 +28,7 @@ Our findings indicate that while the standard QAOA struggles with constraint sat
 
 ## Repository Structure
 `drone.ipynb`: The main Jupyter Notebook containing the problem definition, Hamiltonian construction, and simulation results.
-`requirements.txt`: Neccssary Python libraries and Ket dependencies.
+`requirements.txt`: Necessary Python libraries and Ket dependencies.
 
 ## Authors
 - Kalleb C. Santos
