@@ -1,0 +1,9 @@
+# Quantum Programming Platform
+ket-lang
+
+# Optimization and Math
+numpy
+scipy
+
+# Visualization
+matplotlib
